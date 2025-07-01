@@ -1,4 +1,5 @@
 print("Olá turma do Python!")
-print("Tudo bem!")
-nome: str = input("Qual é o seu nome? ")
-print(f"Olá, {nome}!")
+print("Tudo bem?")
+nome: str = input("Qual é o seu nome?\n> ")
+idade = int(input("Qual é a sua idade?\n> "))
+print(f"Olá, {nome}! Você é {"maior" if idade >= 18 else "menor"} de idade!")
